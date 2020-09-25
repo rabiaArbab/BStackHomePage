@@ -1,6 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
-}
+} 
 .flex {
     display: flex;
     justify-content: space-between;
@@ -25,6 +25,72 @@
     justify-content: space-around ;
 } */
 
+/* Sign in icon */
+.account{
+  position: absolute;
+}
+.account a{
+  font-size: 30px;
+  color: #212529;
+}
+.account a:hover{
+  color:#F9844A;
+}
+
+.account-sub-menu{
+  display: none;
+}
+.account-sub-menu ul li{
+  list-style-type: none;
+}
+
+.account-sub-menu ul li a{
+  color: rgba(0,0,0,.5);
+}
+.account-sub-menu ul li .fa-atom, .fa-book-reader{
+  margin-right: 8px;
+}
+.account-sub-menu ul li a:hover{
+  text-decoration: none;
+  color:rgba(255,255,255) ;
+}
+.account{
+    margin: 0;
+    padding: 0;
+}
+.account:hover .account-sub-menu{
+  display: block;
+  position: absolute;
+  top: 0px;
+  background-color: #ffcc33;
+  /* padding: 1em; */
+  margin-left: 20px;
+  width: 250px;
+  /* margin-top: 45px; */
+  border-radius: 200px;
+  width: 200px;
+}
+
+.account:hover .account-sub-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding:0;
+  margin-top:1em ;
+}
+
+.account:hover .account-sub-menu ul li{
+  margin-bottom: 1em;
+}
+.subMenuAc a{
+  font-size: 15px;
+}
+.fa-sign-in-alt ,.fa-user-plus{
+  margin-right: 10px;
+}
+/* social icons */
 .icons > .icon {
     list-style: none;
     padding : 2rem 2rem;
