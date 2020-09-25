@@ -358,6 +358,7 @@ body{
   }
   
 @media only screen and (min-width: 768px){
+  
 
     .categories .icons {
         display: flex;
@@ -427,7 +428,11 @@ body{
     .icons {
       margin-left: -50px;
   }
-
+  .team-area {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
     .categories .icons {
         display: flex;
         flex-direction: row;
@@ -568,11 +573,11 @@ body{
       margin-top: -5px;
       padding-left: 20px;
   } 
-  .team-area {
+  /* .team-area {
       display: flex;
       flex-direction: column-reverse;
       flex-wrap: wrap;
-  }
+  } */
   #check{
     z-index: 5;
   }
