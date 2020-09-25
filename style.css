@@ -180,7 +180,7 @@ body{
 .Introduction-section {
     position: relative;
     padding: 3%;
-    font-size: 15px;
+    font-size: 0.5em;
 }
 .Introduction-section::before{
     content: '';
